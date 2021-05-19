@@ -14,9 +14,9 @@ use App\Http\Controllers\MovieController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
-Route::get('/movies', 'MovieController@index');
+Route::get('/', 'MovieController@index');
